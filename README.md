@@ -7,3 +7,4 @@ This repository will be filled with notes from the various readings that are don
 ## Table of Contents
 
 - [Exception Handling & Debugging](reading-01.md)
+- [Unit Testing & Documentation](reading-02.md)
