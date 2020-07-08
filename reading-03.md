@@ -2,12 +2,12 @@
 
 ## File and Stream I/O
 - Using System.IO you can read data from storage, or from a stream of data.
-- It is important to ahve a robust system of exception handlingin place when dealing with external files.
+- It is important to have a robust system of exception handling in place when dealing with external files.
 - Streams deal with three main types of transactions: Reading, Writing, and Seeking.
 - Encoded characters can also be read such as binary, characters, strings, and text.
-- Asynchronous opertations can be used when a file can have excessive amounts of data to the point where the overall process is too resource intensive to do all the operations at the same time.
+- Asynchronous operations can be used when a file can have excessive amounts of data to the point where the overall process is too resource intensive to do all the operations at the same time.
 - There are many methods that allow for data to be compressed (or zipped).
-- Isolated storage can be used during any of these processes for saely dealing with code.
+- Isolated storage can be used during any of these processes for safely dealing with code.
 - Keep in mind that there are several security protocols to follow to to ensure the safe handling of data.
 
 ## Write to a File
@@ -40,7 +40,7 @@ class Program
 ```
 
 ## Read from a File
-This examples shows a program that creates a file and writes the integers 1 through 10 in it. It then takes that file and reads directly from it outputing the integers in the console.
+This examples shows a program that creates a file and writes the integers 1 through 10 in it. It then takes that file and reads directly from it outputting the integers in the console.
 ```
 using System;
 using System.IO;
