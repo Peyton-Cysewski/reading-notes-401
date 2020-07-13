@@ -1,14 +1,14 @@
-# OOP Interfaces
+# Interfaces
 
 ## Inheritance
 - Inherited classes have all the same characteristics of the main class from which the original characteristics come from.
-- Base class - The root class from which other classes can inherit thir characteristics.
+- Base class - The root class from which other classes can inherit their characteristics.
 - Derived class - The class that has inherited characteristics and has the ability to extend/add upon them.
-- A derived class implicity inherits all the members of a base class except for its constructors and finalizers. It also reusues the base class' methods without having to reimplement them.
+- A derived class implicitly inherits all the members of a base class except for its constructors and finalizers. It also reuses the base class' methods without having to reimplement them.
 
 ## Abstract
 - The ```abstract``` keyword allows for classes and class members to be incomplete, requiring them to be implemented in a derived class.
-- The ```virtual``` keyword allows for a method to be written. It can subsequently be overridden by an ```abstract``` method in a derived class. Any class that is then derived from this class will again have access to the original ```virtual``` method, but not the previosu overridden definition.
+- The ```virtual``` keyword allows for a method to be written. It can subsequently be overridden by an ```abstract``` method in a derived class. Any class that is then derived from this class will again have access to the original ```virtual``` method, but not the previous overridden definition.
 - The ```sealed``` keyword makes a class underivable, meaning it cannot be used as a base class.
 
 ## Polymorphism
