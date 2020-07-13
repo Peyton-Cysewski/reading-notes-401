@@ -11,3 +11,4 @@ This repository will be filled with notes from the various readings that are don
 - [System IO](reading-03.md)
 - [Classes and Memory Management](reading-04.md)
 - [Linked Lists](reading-05.md)
+- [Interfaces](reading-06.md)
