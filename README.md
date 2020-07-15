@@ -12,3 +12,4 @@ This repository will be filled with notes from the various readings that are don
 - [Classes and Memory Management](reading-04.md)
 - [Linked Lists](reading-05.md)
 - [Interfaces](reading-06.md)
+- [Collections](reading-07.md)
