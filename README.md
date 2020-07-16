@@ -13,3 +13,4 @@ This repository will be filled with notes from the various readings that are don
 - [Linked Lists](reading-05.md)
 - [Interfaces](reading-06.md)
 - [Collections](reading-07.md)
+- [LINQs](reading-08.md)
