@@ -14,3 +14,4 @@ This repository will be filled with notes from the various readings that are don
 - [Interfaces](reading-06.md)
 - [Collections](reading-07.md)
 - [LINQs](reading-08.md)
+- [Stacks and Queues](reading-09.md)
