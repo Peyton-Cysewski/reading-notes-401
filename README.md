@@ -15,3 +15,4 @@ This repository will be filled with notes from the various readings that are don
 - [Collections](reading-07.md)
 - [LINQs](reading-08.md)
 - [Stacks and Queues](reading-09.md)
+- [Intro to Databases](reading-10.md)
