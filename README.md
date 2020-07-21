@@ -16,3 +16,4 @@ This repository will be filled with notes from the various readings that are don
 - [LINQs](reading-08.md)
 - [Stacks and Queues](reading-09.md)
 - [Intro to Databases](reading-10.md)
+- [EF Core and APIs](reading-11.md)
