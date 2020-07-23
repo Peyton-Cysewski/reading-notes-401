@@ -6,7 +6,7 @@ Web routing is enabled in two places: `Web.config` and `Global.asax.cs`. The sec
 ## Routing within Core
 - `UseRouting` - Adds route matching to the middleware pipeline. This middleware looks at the set of endpoints defined in the app, and selects the best match based on the request.
 - `UseEndpoints` - Adds endpoint execution to the middleware pipeline. It runs the delegate associated with the selected endpoint.
-Note: There are many other parts of the middleware that can be used in conjuction with these methods such as for authorization, but these are the primary ones.
+Note: There are many other parts of the middleware that can be used in conjunction with these methods such as for authorization, but these are the primary ones.
 
 
 
