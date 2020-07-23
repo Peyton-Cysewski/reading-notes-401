@@ -18,3 +18,4 @@ This repository will be filled with notes from the various readings that are don
 - [Intro to Databases](reading-10.md)
 - [EF Core and APIs](reading-11.md)
 - [Dependency Injection and Repository Design Pattern](reading-12.md)
+- [Basic Routing](reading-13.md)
