@@ -1,7 +1,7 @@
 # Trees
 
 ## What is a Tree?
-Trees are branching data structure. They are often visualized top down from a single root node that has a left child and a right child. Both of these children nodes can have their own left and right children. This pattern can continue on indefintely until a massive tree-like structure is formed (albiet visualized upside down). Traditionally trees only have right and left children. Since there are two it is referred to as a binary tree.
+Trees are branching data structure. They are often visualized top down from a single root node that has a left child and a right child. Both of these children nodes can have their own left and right children. This pattern can continue on indefinitely until a massive tree-like structure is formed (albeit visualized upside down). Traditionally trees only have right and left children. Since there are two it is referred to as a binary tree.
 
 ## Tree Terminology
 - Node - A node is the individual item/data that makes up the data structure
@@ -22,7 +22,7 @@ Since there is a top down recursive pattern inherent to trees, the traversal alg
 - BreadthFirst - Root downward, row by row (of depth), left to right.
 
 ## Adding a Node
-Trees don't have a stricly defined order so a new node could really be attached anywhere. Traditionally it is acceptable to find the first node that doesn't have two children and slot in there. This can be done using any breadth first traversal.
+Trees don't have a strictly defined order so a new node could really be attached anywhere. Traditionally it is acceptable to find the first node that doesn't have two children and slot in there. This can be done using any breadth first traversal.
 
 ## Big O Traversals
 Searching through a tree only requires one look at each node, so it has a time and space efficiency of `O(n)`. The same goes for insertion. If its insertion is strictly breadth first, then then it is `O(w)` where `w` is the largest width of the tree. In an ideal situation where every node has two child nodes, then the width would be `2^(height - 1)` where height is `log n` where `n` is the total number of nodes and `log` is base two.
