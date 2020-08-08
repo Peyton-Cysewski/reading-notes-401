@@ -20,3 +20,4 @@ This repository will be filled with notes from the various readings that are don
 - [Dependency Injection and Repository Design Pattern](reading-12.md)
 - [Basic Routing](reading-13.md)
 - [Trees](reading-14.md)
+- [Claims and JWT Tokens](reading-15.md)
