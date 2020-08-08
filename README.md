@@ -23,3 +23,4 @@ This repository will be filled with notes from the various readings that are don
 - [Claims and JWT Tokens](reading-15.md)
 - [Data Transfer Objects](reading-16.md)
 - [Intro to Identity](reading-17.md)
+- [Testting and Swagger](reading-18.md)
