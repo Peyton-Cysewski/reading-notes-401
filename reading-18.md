@@ -1,7 +1,7 @@
 # Testing and Swagger
 
 ## Swagger
-Although its not necessarily representative of its namesake's definition, it definitely has some. Swagger, more preferably known as OpenAPI, is a tool that allows humans and computers to understand the capabilites of a service without direct access it. It specifies the capabilites of your API and how to access it with HTTP. Swagger also comes with a component called SwaggerUI that creates and easily digestible view that allows for easy access and testing of the API.
+Although its not necessarily representative of its namesake's definition, it definitely has some. Swagger, more preferably known as OpenAPI, is a tool that allows humans and computers to understand the capabilities of a service without direct access it. It specifies the capabilities of your API and how to access it with HTTP. Swagger also comes with a component called SwaggerUI that creates and easily digestible view that allows for easy access and testing of the API.
 
 
 ## Unit Testing in ASP.NET Core

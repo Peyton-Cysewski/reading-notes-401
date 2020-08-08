@@ -1,0 +1,45 @@
+# Bootstrap and Azure DevOps
+
+## Azure DevOps
+Azure DevOps is a service that allows teams to organize, plan, and work on code development in a single location. Azure DevOps has integrated features that work with IDEs such as:</br>
+- Azure Repos: provides Git repositories for version control.
+- Azure Pipelines: provides build and release services for application delivery and integration.
+- Azure Boards: delivers a suite of Agile tools to help planning and tracking using Kanban and Scrum methods.
+- Azure Test Plans: provides tools to test apps.
+- Azure Artifacts: allows teams to share Maven, npm, and NuGet packages from public and private sources and integrate package sharing into your CI/CD pipelines.
+
+## Bootstrap
+- Acts as a toolkit for making front end views.
+- Responsive in nature, based on a grid system.</br>
+- Defaults to 12 columns in the grid, but fully customizable.
+#### Columns
+- Can be set automatically `class="col"`, or can be a width (out of 12) `class="col-6"`.
+- Breakpoints are set using a few preset widths: `class="col-sm"` or `class="col-lg"` for example.
+- Breakpoints can be combined with column widths to adjust their style based on the breakpoint it is in: `class="col-sm-9"`.
+- Offsets can be added for a specific column: `class="col-sm offset-sm-3"`.
+#### Nav Bars
+- Start with `<nav>` tag with the class `"navbar"`. In the nav section there needs to be an unordered list of class `c"navbar-nav"`.
+- The list items themselves need classes of `"navbar-item"` and the links themeselves need the class `"nav-link"`.
+- The whole unordered list can but put in a div with the class `"collapse navbar-collapse"`.
+- To allow the toggling of the collapsable navbar, add a button with the properties: `class="navbar-toggler" data-toggle="collapse" data-target="{target id here}"`.
+- To make expand fully on a larger screen, the nav tag can have `"navbar-expand-lg"` added to its class. Adding `"fixed-top"` to it will make it stay at the top of the screen the whole time.
+#### Modals
+- Modals are the pop-up boxes that seem to darken the background and allow forms or text boxes to be interacted with.
+- To launch a modal, a button with class `"btn btn-primary"` and `data-toggle="{modal id}"`.
+- The modal itself is a div with class `"modal"` that contains a div with class `"modal-dialog"` that then contains a div with class `"modal-content"`.
+- For subsequent information in the modal, there are the tags: `modal-header`, `modal-title`, `modal-body`, `modal-footer`.
+- To add an exit button in the corner, make a button with class `"close"` and `data-dismiss="modal"`.
+#### Forms
+- On a basic form with text boxes and a submit button, add the class `"btn btn-primary"`.
+- For each label and entry field, they can be grouped in a div with class `"form-group row"` to link them together and organize them in a row.
+- The labels can have column classes to make their location change at different breakpoints for different screen sizes.
+#### List Groups
+- Start with a div with class `"list-group"`.
+- Inside will be links with the class `"list-group-item list-group-item-action"`.
+- To make these divs have "pills" with numbers next to them, create a span inside the link tags with class `"badge badge-primary badge-pill"`.
+- These don't need to be links. They can be made into a list to act as a sort of feed. There are mulitple uses with List Groups.
+
+
+
+
+[Table of Contents](README.md)
