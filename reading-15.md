@@ -4,8 +4,8 @@
 Authentication is simply the process of determining who you are while Authorization is the process of determining what you are allowed to do.
 
 ## Claim-based Authorization
-- Claim: a value pair that represents what an identity is, not what it can do.
-Claim based authorizaton essentially is done by checking the claim and its value. Depending on what the value is, the identity would have access to certain resources. The claim also has an issuer and the checker would have to trust it to validate the claim. If the claim issuer isn't trusted, then it doesn't matter what claim says at all. In ASP.NET Core policies are added in the startup file that can check the claim and then be added to routes making them require a passing claim to access that route and its resources. Policies can also be attached to the full controller which makes it apply to all connected routes.</br>
+- Claim: a value pair that represents what an identity is, not what it can do.</br>
+Claim based authorization essentially is done by checking the claim and its value. Depending on what the value is, the identity would have access to certain resources. The claim also has an issuer and the checker would have to trust it to validate the claim. If the claim issuer isn't trusted, then it doesn't matter what claim says at all. In ASP.NET Core policies are added in the startup file that can check the claim and then be added to routes making them require a passing claim to access that route and its resources. Policies can also be attached to the full controller which makes it apply to all connected routes.</br>
 There is a property `User` in `HttpContext` that allows for the claim to be directly referenced. Now it is more proper to use `ClaimsPrincipal` as a claims-based way of authorization as opposed to a role-based authorization.
 
 ## JWT Authentication

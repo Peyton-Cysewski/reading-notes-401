@@ -21,3 +21,4 @@ This repository will be filled with notes from the various readings that are don
 - [Basic Routing](reading-13.md)
 - [Trees](reading-14.md)
 - [Claims and JWT Tokens](reading-15.md)
+- [Data Transfer Objects](reading-16.md)
