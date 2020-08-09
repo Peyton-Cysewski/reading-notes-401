@@ -38,7 +38,20 @@ Azure DevOps is a service that allows teams to organize, plan, and work on code 
 - Inside will be links with the class `"list-group-item list-group-item-action"`.
 - To make these divs have "pills" with numbers next to them, create a span inside the link tags with class `"badge badge-primary badge-pill"`.
 - These don't need to be links. They can be made into a list to act as a sort of feed. There are mulitple uses with List Groups.
-
+#### Cards
+- Start with a div with class `"card"` and inside it have a div with class `"card-body"`.
+- Inside the body there can be the `"card-title"`, `"card-text"`.
+- Above the body, if you want to add an image, use `"card-img-top"`.
+- List groups also work very well inside of cards.
+#### Tables
+- Using an HTML table, add the class `"table"`.
+- Other class additions are more self explanatory: `"table-hover"`, `"thead-dark"`, `"table-dark"`, `"table-striped"`, `"table-bordered"`
+#### Alerts
+- Create a div with class `"alert"`. Feel free to add `"alert-info"` as well for color.
+- Inside a button with class `"close"` and data-dismiss of `"alert"` will allow it to be closed/removed.
+#### Navigation Options
+- Addition options for navigation bars include using `"nav-pills"`, `"nav-fill"`, `"nav-tabs"`.
+- There are a slew of nav item options that are not as common but still available that can be found in the documentation.
 
 
 
