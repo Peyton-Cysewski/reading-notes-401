@@ -19,9 +19,9 @@ Azure DevOps is a service that allows teams to organize, plan, and work on code 
 - Offsets can be added for a specific column: `class="col-sm offset-sm-3"`.
 #### Nav Bars
 - Start with `<nav>` tag with the class `"navbar"`. In the nav section there needs to be an unordered list of class `c"navbar-nav"`.
-- The list items themselves need classes of `"navbar-item"` and the links themeselves need the class `"nav-link"`.
+- The list items themselves need classes of `"navbar-item"` and the links themselves need the class `"nav-link"`.
 - The whole unordered list can but put in a div with the class `"collapse navbar-collapse"`.
-- To allow the toggling of the collapsable navbar, add a button with the properties: `class="navbar-toggler" data-toggle="collapse" data-target="{target id here}"`.
+- To allow the toggling of the collapsible navbar, add a button with the properties: `class="navbar-toggler" data-toggle="collapse" data-target="{target id here}"`.
 - To make expand fully on a larger screen, the nav tag can have `"navbar-expand-lg"` added to its class. Adding `"fixed-top"` to it will make it stay at the top of the screen the whole time.
 #### Modals
 - Modals are the pop-up boxes that seem to darken the background and allow forms or text boxes to be interacted with.
@@ -37,7 +37,7 @@ Azure DevOps is a service that allows teams to organize, plan, and work on code 
 - Start with a div with class `"list-group"`.
 - Inside will be links with the class `"list-group-item list-group-item-action"`.
 - To make these divs have "pills" with numbers next to them, create a span inside the link tags with class `"badge badge-primary badge-pill"`.
-- These don't need to be links. They can be made into a list to act as a sort of feed. There are mulitple uses with List Groups.
+- These don't need to be links. They can be made into a list to act as a sort of feed. There are multiple uses with List Groups.
 #### Cards
 - Start with a div with class `"card"` and inside it have a div with class `"card-body"`.
 - Inside the body there can be the `"card-title"`, `"card-text"`.
