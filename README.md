@@ -27,3 +27,4 @@ This repository will be filled with notes from the various readings that are don
 - [Azure DevOps and Bootstrap](reading-19.md)
 - [Razor Pages](reading-20.md)
 - [Layouts](reading-21.md)
+- [Policies](reading-22.md)
