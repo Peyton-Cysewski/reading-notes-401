@@ -4,7 +4,7 @@
 #### MVC
 - Typical path goes as follows: User requests home.index, ASP.NET routes request to controller action, the controller does its stuff, it goes to the ASP.NET view engine, the user sees the rendered view.
 - The routing engine is responsible for connecting a route to a controller action.
-- The logic for validating requests and callign services live in the controller.
+- The logic for validating requests and calling services live in the controller.
 - Views are housed in .cshtml file of the same as the controller that is within a `Views` directory.
 - Views are usually associated with ViewModels that has properties for the data you wish to display.
 #### Razor Pages
