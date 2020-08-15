@@ -35,4 +35,4 @@ Searching and insertions have a complexity of `O(h)` where `h` is height. In an 
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

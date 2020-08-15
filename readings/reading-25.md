@@ -11,4 +11,4 @@ First you need to download the NuGet package for `Sendgrid` by Elmer Thomas and 
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

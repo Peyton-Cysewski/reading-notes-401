@@ -8,4 +8,4 @@ In ASP.NET Core you have the ability to add user secrets to your API. User secre
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

@@ -19,4 +19,4 @@ For anyone who is writing queries, the most visible "language-integrated" part o
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

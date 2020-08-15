@@ -14,4 +14,4 @@ Authentication handlers in ASP.NET Core are handled by the Cookies authenticatio
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

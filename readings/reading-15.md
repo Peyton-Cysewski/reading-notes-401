@@ -17,4 +17,4 @@ A JWT is broken into three parts, the Header, the Payload, and the Signature:
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

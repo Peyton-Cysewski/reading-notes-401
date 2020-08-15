@@ -9,4 +9,4 @@ It is possible to make customizable policies using `IAuthorizationPolicyProvider
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)

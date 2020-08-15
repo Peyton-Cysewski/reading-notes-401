@@ -6,4 +6,4 @@ Calling a view component in a view looks like: `@await Component.InvokeAsync("Na
 
 
 
-[Table of Contents](README.md)
+[Table of Contents](../README.md)
