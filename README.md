@@ -29,3 +29,4 @@ This repository will be filled with notes from the various readings that are don
 - [Layouts](./readings/reading-21.md)
 - [Policies](./readings/reading-22.md)
 - [Hash Tables](./readings/reading-23.md)
+- [View Components](./readings/reading-24.md)
