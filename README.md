@@ -33,3 +33,4 @@ This repository will be filled with notes from the various readings that are don
 - [SendGrid](./readings/reading-25.md)
 - [OAuth](./readings/reading-26.md)
 - [Level Order Tree Traversal](./readings/reading-27.md)
+- [Graphs](./readings/reading-28.md)
